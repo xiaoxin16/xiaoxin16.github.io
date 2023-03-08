@@ -36,24 +36,27 @@
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="xiaoxin16@Chirpy" />
+<meta property="og:title" content="Python学习" />
+<meta name="author" content="Dinesh Prasanth Moluguwan Krishnamoorthy" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
-<meta property="og:description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<meta name="description" content="2023-03-08-python Anaconda 卸载" />
+<meta property="og:description" content="2023-03-08-python Anaconda 卸载" />
+<link rel="canonical" href="http://localhost:4000/posts/python/" />
+<meta property="og:url" content="http://localhost:4000/posts/python/" />
 <meta property="og:site_name" content="xiaoxin16@Chirpy" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-03-08T18:32:00+08:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="xiaoxin16@Chirpy" />
+<meta property="twitter:title" content="Python学习" />
 <meta name="twitter:site" content="@twitter_username" />
+<meta name="twitter:creator" content="@dinesh_MKD" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"A minimal, responsive and feature-rich Jekyll theme for technical writing.","headline":"xiaoxin16@Chirpy","name":"your_full_name","sameAs":["https://twitter.com/username","https://github.com/username"],"url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Dinesh Prasanth Moluguwan Krishnamoorthy","url":"https://github.com/SilleBille/"},"dateModified":"2023-03-08T21:13:44+08:00","datePublished":"2023-03-08T18:32:00+08:00","description":"2023-03-08-python Anaconda 卸载","headline":"Python学习","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/python/"},"url":"http://localhost:4000/posts/python/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
 
-  <title>xiaoxin16@Chirpy
+  <title>Python学习 | xiaoxin16@Chirpy
   </title>
 
   <!--
@@ -107,7 +110,12 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 
   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.css">
+  
 
+  
+    <!-- Manific Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.min.css">
   
 
   <!-- JavaScript -->
@@ -276,7 +284,7 @@
   <ul class="w-100">
 
     <!-- home -->
-    <li class="nav-item active">
+    <li class="nav-item">
       <a href="/" class="nav-link">
         <i class="fa-fw fas fa-home ml-xl-3 mr-xl-3 unloaded"></i>
         <span>HOME</span>
@@ -427,8 +435,33 @@
     
 
     
-      <!-- index page -->
-      <span>Home</span>
+
+      
+
+        
+          <span>
+            <a href="/">
+              Home
+            </a>
+          </span>
+
+        
+
+      
+
+        
+
+      
+
+        
+
+          
+            <span>Python学习</span>
+          
+
+        
+
+      
 
     
 
@@ -437,7 +470,7 @@
     <i id="sidebar-trigger" class="fas fa-bars fa-fw"></i>
 
     <div id="topbar-title">
-      xiaoxin16@Chirpy
+      Post
     </div>
 
     <i id="search-trigger" class="fas fa-search fa-fw"></i>
@@ -471,130 +504,101 @@
     
       
       
-        
-
-
-
-
-<!-- Get pinned posts -->
-
-
-
-
-
-
-<!-- Get default posts -->
-
-
-
-
-
-
-
-
-
-
-<div id="post-list">
-
-
-
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/getting-started/">Getting Started</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
-        
-
-
-
-
-
-        Prerequisites
-
-Follow the instructions in the Jekyll Docs to complete the installation of the basic environment. Git also needs to be installed.
-
-Installation
-
-Creating a New Site
-
-There are two wa...
-      </p>
-    </div>
-
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
         <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
+  Refactor the HTML structure.
 -->
 
 
 
+<!--
+  In order to allow a wide table to scroll horizontally,
+  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
+-->
 
 
-<em class=""
-    data-ts="1565355300"
-    data-df="ll"
-    >
-  Aug  9, 2019
-</em>
+
+<!--
+  Fixed kramdown code highlight rendering:
+  https://github.com/penibelst/jekyll-compress-html/issues/101
+  https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
+-->
 
 
-        <!-- categories -->
+
+<!-- Change the icon of checkbox -->
+
+
+<!-- images -->
+
+
+
+
+
+<!-- Add header for code snippets -->
+
+
+
+<!-- Create heading anchors -->
+
+
+
+
+
+  
+  
+
+  
+    
+    
+
+    
+      
         
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            Blogging,
-            Tutorial
-          </span>
         
-
-      </div>
+      
 
       
-      <div class="pin">
-        <i class="fas fa-thumbtack fa-fw"></i>
-        <span>Pinned</span>
-      </div>
       
 
-    </div> <!-- .post-meta -->
+      
+      
+      
 
-  </div> <!-- .post-review -->
+      
+
+    
+
+    
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
 
 
 
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/python/">Python学习</a>
-    </h1>
 
-    <div class="post-content">
-      <p>
-        
+<!-- return -->
 
+<h1 data-toc-skip>Python学习</h1>
 
-
-
-
-        2023-03-08-python
-Anaconda 卸载
-
-      </p>
-    </div>
-
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
-        <!--
+<div class="post-meta text-muted">
+    <!-- published date -->
+    <span>
+      Posted
+      <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -606,55 +610,17 @@ Anaconda 卸载
 <em class=""
     data-ts="1678271520"
     data-df="ll"
-    >
+    data-toggle="tooltip" data-placement="bottom">
   Mar  8, 2023
 </em>
 
+    </span>
 
-        <!-- categories -->
-        
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            Blogging,
-            Tutorial
-          </span>
-        
-
-      </div>
-
-      
-
-    </div> <!-- .post-meta -->
-
-  </div> <!-- .post-review -->
-
-
-
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/enable-google-pv/">Enable Google Page Views</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
-        
-
-
-
-
-
-        
-  The content of this post applies only to Universal Analytics property (UA), not Google Analytics 4 (GA 4). In addition, since UA is about to be deprecated on Jul 1, 2023, the Page Views feature ...
-      </p>
-    </div>
-
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
-        <!--
+    <!-- lastmod date -->
+    
+    <span>
+      Updated
+      <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -664,278 +630,160 @@ Anaconda 卸载
 
 
 <em class=""
-    data-ts="1609716720"
+    data-ts="1678281224"
     data-df="ll"
-    >
-  Jan  4, 2021
+    data-toggle="tooltip" data-placement="bottom">
+  Mar  8, 2023
 </em>
 
+    </span>
+    
 
-        <!-- categories -->
-        
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            Blogging,
-            Tutorial
-          </span>
-        
+  
 
-      </div>
-
+  <div class="d-flex justify-content-between">
+    <!-- author(s) -->
+    <span>
       
 
-    </div> <!-- .post-meta -->
+      By
 
-  </div> <!-- .post-review -->
-
-
-
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/customize-the-favicon/">Customize the Favicon</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
+      <em>
+      
         
+          <a href="https://github.com/SilleBille/">Dinesh Prasanth Moluguwan Krishnamoorthy</a>
+          
+        
+      
+      </em>
+    </span>
+
+    <div>
+      <!-- page views -->
+      
+
+      <!-- read time -->
+      <!--
+  Calculate the post's reading time, and display the word count in tooltip
+ -->
+
+
+
+<!-- words per minute  -->
 
 
 
 
 
-        The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons...
-      </p>
+
+
+
+
+
+<!-- return element -->
+<span class="readtime" data-toggle="tooltip" data-placement="bottom"
+  title="4 words">
+  <em>1 min</em> read</span>
+
     </div>
 
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
+  </div> <!-- .d-flex -->
 
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
+</div> <!-- .post-meta -->
 
+<div class="post-content">
+  <h1 id="2023-03-08-python">2023-03-08-python</h1>
+<h2 id="anaconda-卸载"><span class="mr-2">Anaconda 卸载</span><a href="#anaconda-卸载" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
+</div>
 
+<div class="post-tail-wrapper text-muted">
 
+  <!-- categories -->
+  
+  <div class="post-meta mb-3">
+    <i class="far fa-folder-open fa-fw mr-1"></i>
+    
+      <a href='/categories/blogging/'>Blogging</a>,
+      <a href='/categories/tutorial/'>Tutorial</a>
+  </div>
+  
 
-<em class=""
-    data-ts="1565454840"
-    data-df="ll"
-    >
-  Aug 11, 2019
-</em>
+  <!-- tags -->
+  
+  <div class="post-tags">
+    <i class="fa fa-tags fa-fw mr-1"></i>
+      
+      <a href="/tags/google-analytics/"
+          class="post-tag no-text-decoration" >google analytics</a>
+      
+      <a href="/tags/pageviews/"
+          class="post-tag no-text-decoration" >pageviews</a>
+      
+  </div>
+  
 
-
-        <!-- categories -->
-        
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            Blogging,
-            Tutorial
-          </span>
-        
-
-      </div>
+  <div class="post-tail-bottom
+    d-flex justify-content-between align-items-center mt-3 pt-5 pb-2">
+    <div class="license-wrapper">
 
       
 
-    </div> <!-- .post-meta -->
-
-  </div> <!-- .post-review -->
-
-
-
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/write-a-new-post/">Writing a New Post</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
         
 
+        This post is licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         by the author.
 
-
-
-
-        This tutorial will guide you how to write a post in the Chirpy template, and it’s worth reading even if you’ve used Jekyll before, as many features require specific variables to be set.
-
-Naming and...
-      </p>
+      
     </div>
 
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
+    <!--
+ Post sharing snippet
 -->
 
+<div class="share-wrapper">
+  <span class="share-label text-muted mr-1">Share</span>
+  <span class="share-icons">
+    
+    
+    
 
-
-
-
-<em class=""
-    data-ts="1565244600"
-    data-df="ll"
-    >
-  Aug  8, 2019
-</em>
-
-
-        <!-- categories -->
-        
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            Blogging,
-            Tutorial
-          </span>
-        
-
-      </div>
-
+    
       
-
-    </div> <!-- .post-meta -->
-
-  </div> <!-- .post-review -->
-
-
-
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/text-and-typography/">Text and Typography</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
-        
-
-
-
-
-
-        This post is to show Markdown syntax rendering on Chirpy, you can also use it as an example of writing. Now, let’s start looking at text and typography.
-
-Titles
-
-
-H1 - heading
-
-H2 - heading
-
-H3 - h...
-      </p>
-    </div>
-
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-
-<em class=""
-    data-ts="1565235180"
-    data-df="ll"
-    >
-  Aug  8, 2019
-</em>
-
-
-        <!-- categories -->
-        
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            Blogging,
-            Demo
-          </span>
-        
-
-      </div>
-
+        <a href="https://twitter.com/intent/tweet?text=Python%E5%AD%A6%E4%B9%A0%20-%20xiaoxin16@Chirpy&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fpython%2F" data-toggle="tooltip" data-placement="top"
+          title="Twitter" target="_blank" rel="noopener" aria-label="Twitter">
+          <i class="fa-fw fab fa-twitter"></i>
+        </a>
+    
       
-
-    </div> <!-- .post-meta -->
-
-  </div> <!-- .post-review -->
-
-
-
-</div> <!-- #post-list -->
-
-
-  <!--
-  The paginator for post list on HomgPage.
--->
-
-<ul class="pagination align-items-center mt-4 pl-lg-2">
-  <!-- left arrow -->
-  
-
-  <li class="page-item disabled">
-    <a class="page-link btn-box-shadow" href="#" aria-label="previous-page">
-      <i class="fas fa-angle-left"></i>
-    </a>
-  </li>
-
-  <!-- page numbers -->
-  
-  
-
-  
-
+        <a href="https://www.facebook.com/sharer/sharer.php?title=Python%E5%AD%A6%E4%B9%A0%20-%20xiaoxin16@Chirpy&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fpython%2F" data-toggle="tooltip" data-placement="top"
+          title="Facebook" target="_blank" rel="noopener" aria-label="Facebook">
+          <i class="fa-fw fab fa-facebook-square"></i>
+        </a>
     
-    
-    
-    
+      
+        <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fpython%2F&text=Python%E5%AD%A6%E4%B9%A0%20-%20xiaoxin16@Chirpy" data-toggle="tooltip" data-placement="top"
+          title="Telegram" target="_blank" rel="noopener" aria-label="Telegram">
+          <i class="fa-fw fab fa-telegram"></i>
+        </a>
     
 
-    
+    <i id="copy-link" class="fa-fw fas fa-link small"
+        data-toggle="tooltip" data-placement="top"
+        title="Copy link"
+        data-title-succeed="Link copied successfully!">
+    </i>
 
-    
-      <!-- show number -->
-      <li class="page-item  active">
-        <a class="page-link btn-box-shadow" href="/">1</a>
-      </li>
-    
+  </span>
+</div>
 
-  
 
-  <!-- mobile pagination -->
-  <li class="page-index align-middle">
-    <span>1</span>
-    <span class="text-muted">/ 1</span>
-  </li>
+  </div><!-- .post-tail-bottom -->
 
-  <!-- right arrow -->
-  
-
-  <li class="page-item disabled">
-    <a class="page-link btn-box-shadow" href="#" aria-label="next-page">
-      <i class="fas fa-angle-right"></i>
-    </a>
-  </li>
-
-</ul> <!-- .pagination -->
-
+</div><!-- div.post-tail-wrapper -->
 
 
       
@@ -1171,11 +1019,294 @@ H3 - h...
     </div>
 
     
+      
+      
+
+
+
+<!-- BS-toc.js will be loaded at medium priority -->
+<script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.js"></script>
+
+<div id="toc-wrapper" class="pl-0 pr-4 mb-5">
+  <div class="panel-heading pl-3 pt-2 mb-2">Contents</div>
+  <nav id="toc" data-toggle="toc"></nav>
+</div>
+
+
+    
   </div>
 
 </div>
 
 <!-- tail -->
+
+<div class="row">
+  <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 pl-3 pr-3 pr-xl-4 mt-5">
+    
+      
+      <!--
+ Recommend the other 3 posts according to the tags and categories of the current post,
+ if the number is not enough, use the other latest posts to supplement.
+-->
+
+<!-- The total size of related posts  -->
+
+
+<!-- An random integer that bigger than 0  -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy}  -->
+
+
+
+
+
+
+
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+<!-- Fill with the other newlest posts  -->
+
+
+
+
+
+  <div id="related-posts" class="mb-2 mb-sm-4">
+    <h3 class="pt-2 mb-4 ml-1"
+      data-toc-skip>Further Reading</h3>
+    <div class="card-deck mb-4">
+    
+      
+      
+      <div class="card">
+        <a href="/posts/enable-google-pv/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class="small"
+    data-ts="1609716720"
+    data-df="ll"
+    >
+  Jan  4, 2021
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Enable Google Page Views</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                
+  The content of this post applies only to Universal Analytics property (UA), not Google Analytics 4 (GA 4). In addition, since UA is about to be deprecated on Jul 1, 2023, the Page Views feature ...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+      
+      
+      <div class="card">
+        <a href="/posts/write-a-new-post/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class="small"
+    data-ts="1565244600"
+    data-df="ll"
+    >
+  Aug  8, 2019
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Writing a New Post</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                This tutorial will guide you how to write a post in the Chirpy template, and it’s worth reading even if you’ve used Jekyll before, as many features require specific variables to be set.
+
+Naming and...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+      
+      
+      <div class="card">
+        <a href="/posts/getting-started/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class="small"
+    data-ts="1565355300"
+    data-df="ll"
+    >
+  Aug  9, 2019
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Getting Started</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                Prerequisites
+
+Follow the instructions in the Jekyll Docs to complete the installation of the basic environment. Git also needs to be installed.
+
+Installation
+
+Creating a New Site
+
+There are two wa...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+    </div> <!-- .card-deck -->
+  </div> <!-- #related-posts -->
+
+
+    
+      
+      <!--
+  Navigation buttons at the bottom of the post.
+-->
+
+<div class="post-navigation d-flex justify-content-between">
+  
+  <a href="/posts/enable-google-pv/" class="btn btn-outline-primary"
+    prompt="Older">
+    <p>Enable Google Page Views</p>
+  </a>
+  
+
+  
+  <div class="btn btn-outline-primary disabled"
+    prompt="Newer">
+    <p>-</p>
+  </div>
+  
+
+</div>
+
+    
+      
+      <!--  The comments switcher -->
+
+
+    
+  </div>
+</div>
 
 
       </div>
@@ -1479,6 +1610,51 @@ SimpleJekyllSearch({
 <!-- layout specified -->
 
 
+  
+
+
+
+  <!-- image lazy-loading & popup & clipboard -->
+  
+
+  
+
+
+
+
+
+
+
+  
+    
+
+    
+
+  
+
+
+
+  
+    
+
+    
+
+  
+
+
+
+  
+    
+
+    
+
+  
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/combine/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js,npm/lazysizes@5.3.2/lazysizes.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+
 
 
 
@@ -1542,7 +1718,7 @@ SimpleJekyllSearch({
 
 
 
-<script defer src="/assets/js/dist/home.min.js"></script>
+<script defer src="/assets/js/dist/post.min.js"></script>
 
 
 
