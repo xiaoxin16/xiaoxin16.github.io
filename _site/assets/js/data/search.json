@@ -1,10 +1,44 @@
 [
   
   {
+    "title": "DNS",
+    "url": "/posts/DNS/",
+    "categories": "学习, 技术",
+    "tags": "DNS",
+    "date": "2023-03-15 18:32:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "[toc]{type: “ul”, level: [1,2,3]}DNSDNS请求解析  dig+trace    [drawio](./dig_trace_demo.drawio){link-type=\"drawio\"}![Desktop View](/posts/20190808/mockup.png){: width=\"972\" height=\"589\" }_全屏宽度且居中对齐_   ...",
+    "content": "[toc]{type: “ul”, level: [1,2,3]}DNSDNS请求解析  dig+trace    [drawio](./dig_trace_demo.drawio){link-type=\"drawio\"}![Desktop View](/posts/20190808/mockup.png){: width=\"972\" height=\"589\" }_全屏宽度且居中对齐_            "
+  },
+  
+  {
+    "title": "Template",
+    "url": "/posts/template/",
+    "categories": "模板, 技术",
+    "tags": "Git, auto",
+    "date": "2023-03-10 08:32:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "[toc]{type: “ul”, level: [1,2,3]}自动提交之githublinux  自动保存密码    git config --global credential.helper store        自动提交脚本    # --run--#!/bin/bashcd /home/xyh/PycharmProjects/xiaoxin16.github.iogit add...",
+    "content": "[toc]{type: “ul”, level: [1,2,3]}自动提交之githublinux  自动保存密码    git config --global credential.helper store        自动提交脚本    # --run--#!/bin/bashcd /home/xyh/PycharmProjects/xiaoxin16.github.iogit add .git commit -m \"lalala\"# git push -u origin mastergit pushcd ..        xxxwindows  自动提交  "
+  },
+  
+  {
     "title": "Python学习",
     "url": "/posts/python/",
-    "categories": "Blogging, Tutorial",
-    "tags": "google analytics, pageviews",
+    "categories": "学习, 技术",
+    "tags": "Python, pageviews",
     "date": "2023-03-08 18:32:00 +0800",
     
 
@@ -13,8 +47,8 @@
 
 
     
-    "snippet": "2023-03-08-pythonAnaconda 卸载",
-    "content": "2023-03-08-pythonAnaconda 卸载"
+    "snippet": "[toc]{type: “ul”, level: [1,2,3]}pythonAnaconda  安装与卸载```    安装    sh Anaconda3-2019.10-Linux-x86_64.sh  卸载rm -fr /home/xyh/anaconda3删除 bashrcvim ~/.bashrcsource ~/.bashrc- 代码测试```python# --run--pr...",
+    "content": "[toc]{type: “ul”, level: [1,2,3]}pythonAnaconda  安装与卸载```    安装    sh Anaconda3-2019.10-Linux-x86_64.sh  卸载rm -fr /home/xyh/anaconda3删除 bashrcvim ~/.bashrcsource ~/.bashrc- 代码测试```python# --run--print('HELLOWORLD')  配置```    源设置    $ vim .condarc  channels:  defaultsshow_channel_urls: truedefault_channels:  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2custom_channels:  conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud  msys2: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud  bioconda: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud  menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud  pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud  pytorch-lts: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud  simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud清除缓存conda clean -i环境变量查看conda env list创建环境变量conda create -n myenvt python=3.7.4删除环境变量conda remove -n myenvt –all- jupyter 设置 `引用的还是系统环境变量`进入后conda install ipykernelpython -m ipykernel install –user –name myenvt删除jupyter kernelspec remove myenvt3. tensorflow- 安装conda install tensorflow-gpu```                  "
   },
   
   {

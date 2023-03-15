@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>xiaoxin16@Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2023-03-08T21:27:38+08:00</updated>
+  <updated>2023-03-15T21:04:40+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -20,23 +20,23 @@
 
   
   <entry>
-    <title>Python学习</title>
-    <link href="http://localhost:4000/posts/python/" rel="alternate" type="text/html" title="Python学习" />
-    <published>2023-03-08T18:32:00+08:00</published>
+    <title>DNS</title>
+    <link href="http://localhost:4000/posts/DNS/" rel="alternate" type="text/html" title="DNS" />
+    <published>2023-03-15T18:32:00+08:00</published>
   
-    <updated>2023-03-08T21:13:44+08:00</updated>
+    <updated>2023-03-15T18:32:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/python/</id>
-    <content src="http://localhost:4000/posts/python/" />
+    <id>http://localhost:4000/posts/DNS/</id>
+    <content src="http://localhost:4000/posts/DNS/" />
     <author>
-      <name>sille_bille</name>
+      <name>xyh</name>
     </author>
 
   
     
-    <category term="Blogging" />
+    <category term="学习" />
     
-    <category term="Tutorial" />
+    <category term="技术" />
     
   
 
@@ -48,9 +48,156 @@
 
 
 
-      2023-03-08-python
-Anaconda 卸载
+      [toc]{type: “ul”, level: [1,2,3]}
 
+DNS
+DNS请求解析
+
+  dig+trace
+    [drawio](./dig_trace_demo.drawio){link-type="drawio"}
+![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" }
+_全屏宽度且居中对齐_
+    
+    
+  
+  
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Template</title>
+    <link href="http://localhost:4000/posts/template/" rel="alternate" type="text/html" title="Template" />
+    <published>2023-03-10T08:32:00+08:00</published>
+  
+    <updated>2023-03-10T10:08:39+08:00</updated>
+  
+    <id>http://localhost:4000/posts/template/</id>
+    <content src="http://localhost:4000/posts/template/" />
+    <author>
+      <name>sille_bille</name>
+    </author>
+
+  
+    
+    <category term="模板" />
+    
+    <category term="技术" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      [toc]{type: “ul”, level: [1,2,3]}
+
+自动提交之github
+linux
+
+  自动保存密码
+    git config --global credential.helper store
+    
+  
+  自动提交脚本
+    # --run--
+#!/bin/bash
+cd /home/xyh/PycharmProjects/xiaoxin16.github.io
+git add .
+git commit -m "lalala"
+# git push -u origin master
+git push
+cd ..
+    
+  
+  xxx
+
+
+windows
+
+  自动提交
+  
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Python学习</title>
+    <link href="http://localhost:4000/posts/python/" rel="alternate" type="text/html" title="Python学习" />
+    <published>2023-03-08T18:32:00+08:00</published>
+  
+    <updated>2023-03-09T10:49:23+08:00</updated>
+  
+    <id>http://localhost:4000/posts/python/</id>
+    <content src="http://localhost:4000/posts/python/" />
+    <author>
+      <name>sille_bille</name>
+    </author>
+
+  
+    
+    <category term="学习" />
+    
+    <category term="技术" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      [toc]{type: “ul”, level: [1,2,3]}
+
+python
+Anaconda
+
+  安装与卸载
+```
+    安装
+    sh Anaconda3-2019.10-Linux-x86_64.sh
+  
+
+
+卸载
+rm -fr /home/xyh/anaconda3
+删除 bashrc
+vim ~/.bashrc
+source ~/.bashrc
+- 代码测试
+```python
+# --run--
+print('HELLOWORLD')
+
+
+  配置
+```
+    源设置
+    $ vim .condarc
+  
+
+
+channels:
+
+  defaults
+show_channel_urls: true
+default_channels:
+  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/ma...
     </summary>
   
 
@@ -131,94 +278,6 @@ This post is to enable Page Views on the Chirpy theme based blog that you just b
 Generate the favicon
 
 Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Getting Started</title>
-    <link href="http://localhost:4000/posts/getting-started/" rel="alternate" type="text/html" title="Getting Started" />
-    <published>2019-08-09T20:55:00+08:00</published>
-  
-    <updated>2019-08-09T20:55:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/getting-started/</id>
-    <content src="http://localhost:4000/posts/getting-started/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Prerequisites
-
-Follow the instructions in the Jekyll Docs to complete the installation of the basic environment. Git also needs to be installed.
-
-Installation
-
-Creating a New Site
-
-There are two ways to create a new repository for this theme:
-
-
-  Using the Chirpy Starter - Easy to upgrade, isolates irrelevant project files so you can focus on writing.
-  Forking on GitHub - Convenient for custom...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Writing a New Post</title>
-    <link href="http://localhost:4000/posts/write-a-new-post/" rel="alternate" type="text/html" title="Writing a New Post" />
-    <published>2019-08-08T14:10:00+08:00</published>
-  
-    <updated>2019-08-08T14:10:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/write-a-new-post/</id>
-    <content src="http://localhost:4000/posts/write-a-new-post/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      This tutorial will guide you how to write a post in the Chirpy template, and it’s worth reading even if you’ve used Jekyll before, as many features require specific variables to be set.
-
-Naming and Path
-
-Create a new file named YYYY-MM-DD-TITLE.EXTENSION and put it in the _posts of the root directory. Please note that the EXTENSION must be one of md and markdown. If you want to save time of cre...
     </summary>
   
 
