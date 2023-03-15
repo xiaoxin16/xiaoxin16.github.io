@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>xiaoxin16@Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2023-03-15T21:04:40+08:00</updated>
+  <updated>2023-03-15T21:16:12+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -54,13 +54,16 @@ DNS
 DNS请求解析
 
   dig+trace
-    [drawio](./dig_trace_demo.drawio){link-type="drawio"}
+    [drawio](/posts/dns_dig_trace.drawio){link-type="drawio"}
 ![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" }
 _全屏宽度且居中对齐_
     
-    
+    drawio{link-type=”drawio”}
+
+全屏宽度且居中对齐
   
   
+
 
 
     </summary>
