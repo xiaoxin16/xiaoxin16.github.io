@@ -39,8 +39,8 @@
 <meta property="og:title" content="Template" />
 <meta name="author" content="Dinesh Prasanth Moluguwan Krishnamoorthy" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="[toc]{type: “ul”, level: [1,2,3]}" />
-<meta property="og:description" content="[toc]{type: “ul”, level: [1,2,3]}" />
+<meta name="description" content="[toc]{type: “ul”, level: [1,2,3]} 1 2 cd PycharmProjects/xiaoxin16.github.io bundle exec jekyll serve" />
+<meta property="og:description" content="[toc]{type: “ul”, level: [1,2,3]} 1 2 cd PycharmProjects/xiaoxin16.github.io bundle exec jekyll serve" />
 <link rel="canonical" href="http://localhost:4000/posts/template/" />
 <meta property="og:url" content="http://localhost:4000/posts/template/" />
 <meta property="og:site_name" content="xiaoxin16@Chirpy" />
@@ -51,7 +51,7 @@
 <meta name="twitter:site" content="@twitter_username" />
 <meta name="twitter:creator" content="@dinesh_MKD" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Dinesh Prasanth Moluguwan Krishnamoorthy","url":"https://github.com/SilleBille/"},"dateModified":"2023-03-10T10:08:39+08:00","datePublished":"2023-03-10T08:32:00+08:00","description":"[toc]{type: “ul”, level: [1,2,3]}","headline":"Template","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/template/"},"url":"http://localhost:4000/posts/template/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Dinesh Prasanth Moluguwan Krishnamoorthy","url":"https://github.com/SilleBille/"},"dateModified":"2023-07-31T17:51:58+08:00","datePublished":"2023-03-10T08:32:00+08:00","description":"[toc]{type: “ul”, level: [1,2,3]} 1 2 cd PycharmProjects/xiaoxin16.github.io bundle exec jekyll serve","headline":"Template","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/template/"},"url":"http://localhost:4000/posts/template/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -579,6 +579,18 @@
       
 
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
 
     
 
@@ -586,6 +598,29 @@
 
   
   
+
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
+
+    
 
   
 
@@ -642,10 +677,10 @@
 
 
 <em class=""
-    data-ts="1678414119"
+    data-ts="1690797118"
     data-df="ll"
     data-toggle="tooltip" data-placement="bottom">
-  Mar 10, 2023
+  Jul 31, 2023
 </em>
 
     </span>
@@ -694,7 +729,7 @@
 
 <!-- return element -->
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
-  title="65 words">
+  title="193 words">
   <em>1 min</em> read</span>
 
     </div>
@@ -705,8 +740,41 @@
 
 <div class="post-content">
   <p>[toc]{type: “ul”, level: [1,2,3]}</p>
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>cd PycharmProjects/xiaoxin16.github.io
+bundle exec jekyll serve
+</pre></td></tr></tbody></table></code></div></div>
 
 <h1 id="自动提交之github">自动提交之github</h1>
+<h2 id="git代理"><span class="mr-2">git代理</span><a href="#git代理" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<h3 id="socks代理"><span class="mr-2">socks代理</span><a href="#socks代理" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>git config --global http.proxy socks5://127.0.0.1:10809
+git config --global https.proxy socks5://127.0.0.1:9909
+</pre></td></tr></tbody></table></code></div></div>
+<p>###http代理</p>
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>git config --global http.proxy http://127.0.0.1:9910
+git config --global https.proxy https://127.0.0.1:9910
+</pre></td></tr></tbody></table></code></div></div>
+<p>###取消代理</p>
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>git config --global --unset http.proxy
+git config --global --unset https.proxy
+</pre></td></tr></tbody></table></code></div></div>
+
 <h2 id="linux"><span class="mr-2">linux</span><a href="#linux" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <ol>
   <li>自动保存密码
@@ -741,10 +809,54 @@ git push
 </ol>
 
 <h2 id="windows"><span class="mr-2">windows</span><a href="#windows" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<div class="language-bat highlighter-rouge"><div class="code-header">
+        <span data-label-text="Bat"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="c">REM --run--</span>
+<span class="kd">git</span> <span class="kd">config</span> <span class="na">--global </span><span class="kd">http</span>.proxy <span class="kd">http</span>://127.0.0.1:9910
+<span class="kd">git</span> <span class="kd">config</span> <span class="na">--global </span><span class="kd">https</span>.proxy <span class="kd">https</span>://127.0.0.1:9910
+</pre></td></tr></tbody></table></code></div></div>
+<div class="language-bat highlighter-rouge"><div class="code-header">
+        <span data-label-text="Bat"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="c">REM --run--</span>
+<span class="kd">git</span> <span class="kd">config</span> <span class="na">--global --unset </span><span class="kd">http</span>.proxy
+<span class="kd">git</span> <span class="kd">config</span> <span class="na">--global --unset </span><span class="kd">https</span>.proxy
+</pre></td></tr></tbody></table></code></div></div>
 <ol>
-  <li>自动提交</li>
+  <li>自动提交
+    <div class="language-bat highlighter-rouge"><div class="code-header">
+        <span data-label-text="Bat"><i class="fas fa-code small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre><span class="c">REM --run--</span>
+@echo <span class="kd">HELLOWORLD</span>
+@echo <span class="nv">%GIT_DIR_X_T%</span>
+<span class="nb">cd</span> <span class="nv">%GIT_DIR_X_T%</span>
+<span class="kd">git</span> <span class="kd">add</span> .
+<span class="kd">git</span> <span class="kd">commit</span> <span class="na">-m </span><span class="s2">"lalala"</span>
+<span class="c">::git push -u origin master</span>
+<span class="kd">git</span> <span class="kd">push</span>
+@echo 同步成功
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+  <li>
+    <p>订阅问题</p>
+  </li>
   <li></li>
 </ol>
+
 
 </div>
 
@@ -871,7 +983,12 @@ git push
         
         
         
-      <li><a href="/posts/DNS/">DNS</a></li>
+      <li><a href="/posts/python/">Python学习</a></li>
+      
+        
+        
+        
+      <li><a href="/posts/mysql/">MYSQL</a></li>
       
         
         
@@ -881,7 +998,7 @@ git push
         
         
         
-      <li><a href="/posts/python/">Python学习</a></li>
+      <li><a href="/posts/DNS/">DNS</a></li>
       
     </ul>
   </div> <!-- #access-lastmod -->
@@ -939,48 +1056,10 @@ git push
     
     
     
-      
-        
-        
-
   
     
     
     
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -997,7 +1076,25 @@ git push
     
     
       
+        
+        
+
+  
     
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
   
     
     
@@ -1048,23 +1145,9 @@ git push
     
     
       
-    
-  
-    
-    
-    
-    
-      
         
         
 
-  
-    
-    
-    
-    
-      
-    
   
     
     
@@ -1143,11 +1226,50 @@ git push
     
     
       
+        
+        
+
+  
+    
+    
+    
+    
+      
     
   
     
     
     
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
     
   
     
@@ -1205,11 +1327,6 @@ git push
     
     
     
-  
-    
-    
-    
-    
       
     
   
@@ -1268,11 +1385,6 @@ git push
     
     
     
-  
-    
-    
-    
-    
       
     
   
@@ -1281,6 +1393,11 @@ git push
     
     
       
+    
+  
+    
+    
+    
     
   
     
@@ -1320,13 +1437,13 @@ git push
       <a class="post-tag" href="/tags/google-analytics/">google analytics</a>
     
       
+      <a class="post-tag" href="/tags/mitm/">MITM</a>
+    
+      
+      <a class="post-tag" href="/tags/mysql/">MYSQL</a>
+    
+      
       <a class="post-tag" href="/tags/python/">Python</a>
-    
-      
-      <a class="post-tag" href="/tags/typography/">typography</a>
-    
-      
-      <a class="post-tag" href="/tags/writing/">writing</a>
     
 
     </div>
@@ -1379,6 +1496,32 @@ git push
 
 
 
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
 
   
@@ -1485,31 +1628,6 @@ git push
 <!-- Fill with the other newlest posts  -->
 
 
-
-  
-    
-    
-      
-      
-    
-  
-    
-    
-  
-    
-    
-      
-      
-    
-  
-    
-    
-      
-      
-        
-        
-        
-          
 
 
 
@@ -1623,7 +1741,7 @@ DNS请求解析
       
       
       <div class="card">
-        <a href="/posts/enable-google-pv/">
+        <a href="/posts/mysql/">
           <div class="card-body">
             <!--
   Date format snippet
@@ -1635,13 +1753,13 @@ DNS请求解析
 
 
 <em class="small"
-    data-ts="1609716720"
+    data-ts="1690792320"
     data-df="ll"
     >
-  Jan  4, 2021
+  Jul 31, 2023
 </em>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Enable Google Page Views</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>MYSQL</h3>
             <div class="text-muted small">
               <p>
                 
@@ -1650,8 +1768,10 @@ DNS请求解析
 
 
 
-                
-  The content of this post applies only to Universal Analytics property (UA), not Google Analytics 4 (GA 4). In addition, since UA is about to be deprecated on Jul 1, 2023, the Page Views feature ...
+                [toc]{type: “ul”, level: [1,2,3]}
+
+ref[https://segmentfault.com/a/1190000043052363]
+
               </p>
             </div>
           </div>
@@ -1754,48 +1874,10 @@ DNS请求解析
     
     
     
-      
-        
-        
-
   
     
     
     
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -1812,7 +1894,25 @@ DNS请求解析
     
     
       
+        
+        
+
+  
     
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
   
     
     
@@ -1863,23 +1963,9 @@ DNS请求解析
     
     
       
-    
-  
-    
-    
-    
-    
-      
         
         
 
-  
-    
-    
-    
-    
-      
-    
   
     
     
@@ -1958,11 +2044,50 @@ DNS请求解析
     
     
       
+        
+        
+
+  
+    
+    
+    
+    
+      
     
   
     
     
     
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
     
   
     
@@ -2020,11 +2145,6 @@ DNS请求解析
     
     
     
-  
-    
-    
-    
-    
       
     
   
@@ -2083,11 +2203,6 @@ DNS请求解析
     
     
     
-  
-    
-    
-    
-    
       
     
   
@@ -2096,6 +2211,11 @@ DNS请求解析
     
     
       
+    
+  
+    
+    
+    
     
   
     
@@ -2135,13 +2255,13 @@ DNS请求解析
       <a class="post-tag" href="/tags/google-analytics/">google analytics</a>
     
       
+      <a class="post-tag" href="/tags/mitm/">MITM</a>
+    
+      
+      <a class="post-tag" href="/tags/mysql/">MYSQL</a>
+    
+      
       <a class="post-tag" href="/tags/python/">Python</a>
-    
-      
-      <a class="post-tag" href="/tags/typography/">typography</a>
-    
-      
-      <a class="post-tag" href="/tags/writing/">writing</a>
     
 
     </div>
@@ -2163,12 +2283,18 @@ DNS请求解析
     <div class="d-flex justify-content-between align-items-center text-muted ml-md-3 mr-md-3">
       <div class="footer-left">
         <p class="mb-0">
-          © 2023
+          © 2024
           <a href="https://twitter.com/username">your_full_name</a>.
           
           <span data-toggle="tooltip" data-placement="top"
             title="Except where otherwise noted, the blog posts on this site are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.">Some rights reserved.</span>
           
+        </p>
+        <p>
+          <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+          <span id="busuanzi_container_site_pv">
+              本站总访问量<span id="busuanzi_value_site_pv"></span>次，本站访客数<span id="busuanzi_value_site_uv"></span>人次
+          </span>
         </p>
       </div>
 

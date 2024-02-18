@@ -1,6 +1,40 @@
 [
   
   {
+    "title": "tools",
+    "url": "/posts/tools/",
+    "categories": "学习, 技术",
+    "tags": "MITM",
+    "date": "2023-08-01 16:32:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "[toc]{type: “ul”, level: [1,2,3]}mitm[https://blog.csdn.net/JD_MM/article/details/106602701#:~:text=win10%20–%20mitmproxy%E5%AE%89%E8%A3%85%E7%AC%94%E8%AE%B0%201%201%E3%80%81%E5%9C%A8%E5%91%BD%E4%B...",
+    "content": "[toc]{type: “ul”, level: [1,2,3]}mitm[https://blog.csdn.net/JD_MM/article/details/106602701#:~:text=win10%20–%20mitmproxy%E5%AE%89%E8%A3%85%E7%AC%94%E8%AE%B0%201%201%E3%80%81%E5%9C%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E8%BE%93%E5%85%A5mitmdump%EF%BC%8C%E9%BB%98%E8%AE%A4%E7%9B%91%E5%90%AC8080%E7%AB%AF%E5%8F%A3%EF%BC%8C%E5%BD%93%E5%89%8D%E5%8F%AF%E4%BB%A5%E5%8A%A0-p%E5%8F%82%E6%95%B0%E6%8C%87%E5%AE%9A%E7%AB%AF%E5%8F%A3%202%202%E3%80%81%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86%EF%BC%8C%E5%B9%B6%E6%89%93%E5%BC%80%E4%BB%A3%E7%90%86%EF%BC%9A,%E6%96%B9%E5%BC%8F%E4%B8%80%EF%BC%9A%E5%8F%AF%E5%9C%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86%20%E6%96%B9%E5%BC%8F%E4%BA%8C%EF%BC%9A%E4%B9%9F%E5%8F%AF%E5%9C%A8%E6%9C%AC%E5%9C%B0%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86%203%203%E3%80%81%E6%B5%8F%E8%A7%88%E5%99%A8%E8%BE%93%E5%85%A5http%3A%2F%2Fmitm.it%2F%E6%A0%B9%E6%8D%AE%E9%9C%80%E8%A6%81%E4%B8%8B%E8%BD%BD%E5%AF%B9%E5%BA%94%E7%9A%84%E8%AF%81%E4%B9%A6%20Windows%E8%AF%81%E4%B9%A6%EF%BC%9Amitmproxy-ca-cert.p12%20Android%E8%AF%81%E4%B9%A6%20%EF%BC%9Amitmproxy-ca-cert.pem]"
+  },
+  
+  {
+    "title": "MYSQL",
+    "url": "/posts/mysql/",
+    "categories": "学习, 技术",
+    "tags": "MYSQL",
+    "date": "2023-07-31 16:32:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "[toc]{type: “ul”, level: [1,2,3]}ref[https://segmentfault.com/a/1190000043052363]",
+    "content": "[toc]{type: “ul”, level: [1,2,3]}ref[https://segmentfault.com/a/1190000043052363]"
+  },
+  
+  {
     "title": "DNS",
     "url": "/posts/DNS/",
     "categories": "学习, 技术",
@@ -30,8 +64,8 @@
 
 
     
-    "snippet": "[toc]{type: “ul”, level: [1,2,3]}自动提交之githublinux  自动保存密码    git config --global credential.helper store        自动提交脚本    # --run--#!/bin/bashcd /home/xyh/PycharmProjects/xiaoxin16.github.iogit add...",
-    "content": "[toc]{type: “ul”, level: [1,2,3]}自动提交之githublinux  自动保存密码    git config --global credential.helper store        自动提交脚本    # --run--#!/bin/bashcd /home/xyh/PycharmProjects/xiaoxin16.github.iogit add .git commit -m \"lalala\"# git push -u origin mastergit pushcd ..        xxxwindows  自动提交  "
+    "snippet": "[toc]{type: “ul”, level: [1,2,3]}cd PycharmProjects/xiaoxin16.github.iobundle exec jekyll serve自动提交之githubgit代理socks代理git config --global http.proxy socks5://127.0.0.1:10809git config --global http...",
+    "content": "[toc]{type: “ul”, level: [1,2,3]}cd PycharmProjects/xiaoxin16.github.iobundle exec jekyll serve自动提交之githubgit代理socks代理git config --global http.proxy socks5://127.0.0.1:10809git config --global https.proxy socks5://127.0.0.1:9909###http代理git config --global http.proxy http://127.0.0.1:9910git config --global https.proxy https://127.0.0.1:9910###取消代理git config --global --unset http.proxygit config --global --unset https.proxylinux  自动保存密码    git config --global credential.helper store        自动提交脚本    # --run--#!/bin/bashcd /home/xyh/PycharmProjects/xiaoxin16.github.iogit add .git commit -m \"lalala\"# git push -u origin mastergit pushcd ..        xxxwindowsREM --run--git config --global http.proxy http://127.0.0.1:9910git config --global https.proxy https://127.0.0.1:9910REM --run--git config --global --unset http.proxygit config --global --unset https.proxy  自动提交    REM --run--@echo HELLOWORLD@echo %GIT_DIR_X_T%cd %GIT_DIR_X_T%git add .git commit -m \"lalala\"::git push -u origin mastergit push@echo 同步成功            订阅问题    "
   },
   
   {
@@ -48,7 +82,7 @@
 
     
     "snippet": "[toc]{type: “ul”, level: [1,2,3]}pythonAnaconda  安装与卸载```    安装    sh Anaconda3-2019.10-Linux-x86_64.sh  卸载rm -fr /home/xyh/anaconda3删除 bashrcvim ~/.bashrcsource ~/.bashrc- 代码测试```python# --run--pr...",
-    "content": "[toc]{type: “ul”, level: [1,2,3]}pythonAnaconda  安装与卸载```    安装    sh Anaconda3-2019.10-Linux-x86_64.sh  卸载rm -fr /home/xyh/anaconda3删除 bashrcvim ~/.bashrcsource ~/.bashrc- 代码测试```python# --run--print('HELLOWORLD')  配置```    源设置    $ vim .condarc  channels:  defaultsshow_channel_urls: truedefault_channels:  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2custom_channels:  conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud  msys2: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud  bioconda: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud  menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud  pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud  pytorch-lts: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud  simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud清除缓存conda clean -i环境变量查看conda env list创建环境变量conda create -n myenvt python=3.7.4删除环境变量conda remove -n myenvt –all- jupyter 设置 `引用的还是系统环境变量`进入后conda install ipykernelpython -m ipykernel install –user –name myenvt删除jupyter kernelspec remove myenvt3. tensorflow- 安装conda install tensorflow-gpu```                  "
+    "content": "[toc]{type: “ul”, level: [1,2,3]}pythonAnaconda  安装与卸载```    安装    sh Anaconda3-2019.10-Linux-x86_64.sh  卸载rm -fr /home/xyh/anaconda3删除 bashrcvim ~/.bashrcsource ~/.bashrc- 代码测试```python# --run--print('HELLOWORLD')  配置```    源设置    pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple$ vim .condarc  channels:  defaultsshow_channel_urls: truedefault_channels:  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2custom_channels:  conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud  msys2: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud  bioconda: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud  menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud  pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud  pytorch-lts: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud  simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud清除缓存conda clean -i环境变量查看conda env list创建环境变量conda create -n myenvt python=3.7.4conda create –name env4test –clone root删除环境变量conda remove -n myenvt –all- jupyter 设置 `引用的还是系统环境变量`进入后conda install ipykernelpython -m ipykernel install –user –name myenvt删除jupyter kernelspec remove myenvt3. tensorflow- 安装conda install tensorflow-gpu- 4. 运行```python# --run--print('HELLOWORLD')stranger = {\"Eleven\": \"Millie\",            \"Mike\": \"Finn\",            \"Will\": \"Noah\"}# print original dictionaryprint(\"initial dictionary = \", stranger)print(type(stranger))# convert dictionary into string# using str()op = str(stranger)# printing result as stringprint(\"final string = \", op)print(type(op))# --run--# 多进程import multiprocessingdef my_function(x):    return x**2with multiprocessing.Pool(processes=4) as pool:    result = pool.map(my_function, [1, 2, 3, 4, 5])print(result)  "
   },
   
   {

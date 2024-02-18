@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>xiaoxin16@Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2023-03-15T21:20:09+08:00</updated>
+  <updated>2024-02-18T19:31:28+08:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -13,10 +13,87 @@
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
-  <rights> © 2023 your_full_name </rights>
+  <rights> © 2024 your_full_name </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>tools</title>
+    <link href="http://localhost:4000/posts/tools/" rel="alternate" type="text/html" title="tools" />
+    <published>2023-08-01T16:32:00+08:00</published>
+  
+    <updated>2023-08-01T16:32:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/tools/</id>
+    <content src="http://localhost:4000/posts/tools/" />
+    <author>
+      <name>xyh</name>
+    </author>
+
+  
+    
+    <category term="学习" />
+    
+    <category term="技术" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      [toc]{type: “ul”, level: [1,2,3]}
+
+mitm[https://blog.csdn.net/JD_MM/article/details/106602701#:~:text=win10%20–%20mitmproxy%E5%AE%89%E8%A3%85%E7%AC%94%E8%AE%B0%201%201%E3%80%81%E5%9C%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E8%BE%93%E5%85%A5mitmdump%EF%BC%8C%E9%BB%98%E8%AE%A4%E7%9B%91%E5%90%AC8080%E7%AB%AF%E5%8F%A3%EF%BC%8C%E5%BD%93%E5%89%8D%E5%8F%AF%E4%BB%A5%E5%8A%A0-p%E5%8F%82%E6%95%B0%E6%8C%87%E5%AE%9A...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>MYSQL</title>
+    <link href="http://localhost:4000/posts/mysql/" rel="alternate" type="text/html" title="MYSQL" />
+    <published>2023-07-31T16:32:00+08:00</published>
+  
+    <updated>2023-08-02T17:01:14+08:00</updated>
+  
+    <id>http://localhost:4000/posts/mysql/</id>
+    <content src="http://localhost:4000/posts/mysql/" />
+    <author>
+      <name>xyh</name>
+    </author>
+
+  
+    
+    <category term="学习" />
+    
+    <category term="技术" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      [toc]{type: “ul”, level: [1,2,3]}
+
+ref[https://segmentfault.com/a/1190000043052363]
+
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -24,7 +101,7 @@
     <link href="http://localhost:4000/posts/DNS/" rel="alternate" type="text/html" title="DNS" />
     <published>2023-03-15T18:32:00+08:00</published>
   
-    <updated>2023-03-15T21:16:21+08:00</updated>
+    <updated>2023-03-15T21:20:18+08:00</updated>
   
     <id>http://localhost:4000/posts/DNS/</id>
     <content src="http://localhost:4000/posts/DNS/" />
@@ -76,7 +153,7 @@ _全屏宽度且居中对齐_
     <link href="http://localhost:4000/posts/template/" rel="alternate" type="text/html" title="Template" />
     <published>2023-03-10T08:32:00+08:00</published>
   
-    <updated>2023-03-10T10:08:39+08:00</updated>
+    <updated>2023-07-31T17:51:58+08:00</updated>
   
     <id>http://localhost:4000/posts/template/</id>
     <content src="http://localhost:4000/posts/template/" />
@@ -101,34 +178,22 @@ _全屏宽度且居中对齐_
 
 
       [toc]{type: “ul”, level: [1,2,3]}
+cd PycharmProjects/xiaoxin16.github.io
+bundle exec jekyll serve
+
 
 自动提交之github
-linux
+git代理
+socks代理
+git config --global http.proxy socks5://127.0.0.1:10809
+git config --global https.proxy socks5://127.0.0.1:9909
 
-  自动保存密码
-    git config --global credential.helper store
-    
-  
-  自动提交脚本
-    # --run--
-#!/bin/bash
-cd /home/xyh/PycharmProjects/xiaoxin16.github.io
-git add .
-git commit -m "lalala"
-# git push -u origin master
-git push
-cd ..
-    
-  
-  xxx
+###http代理
+git config --global http.proxy http://127.0.0.1:9910
+git config --global https.proxy https://127.0.0.1:9910
 
-
-windows
-
-  自动提交
-  
-
-
+###取消代理
+git config --global --unset htt...
     </summary>
   
 
@@ -140,7 +205,7 @@ windows
     <link href="http://localhost:4000/posts/python/" rel="alternate" type="text/html" title="Python学习" />
     <published>2023-03-08T18:32:00+08:00</published>
   
-    <updated>2023-03-09T10:49:23+08:00</updated>
+    <updated>2023-08-02T17:01:14+08:00</updated>
   
     <id>http://localhost:4000/posts/python/</id>
     <content src="http://localhost:4000/posts/python/" />
@@ -190,7 +255,8 @@ print('HELLOWORLD')
   配置
 ```
     源设置
-    $ vim .condarc
+    pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+$ vim .condarc
   
 
 
@@ -198,88 +264,7 @@ channels:
 
   defaults
 show_channel_urls: true
-default_channels:
-  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/ma...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Enable Google Page Views</title>
-    <link href="http://localhost:4000/posts/enable-google-pv/" rel="alternate" type="text/html" title="Enable Google Page Views" />
-    <published>2021-01-04T07:32:00+08:00</published>
-  
-    <updated>2021-01-04T07:32:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/enable-google-pv/</id>
-    <content src="http://localhost:4000/posts/enable-google-pv/" />
-    <author>
-      <name>sille_bille</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-  The content of this post applies only to Universal Analytics property (UA), not Google Analytics 4 (GA 4). In addition, since UA is about to be deprecated on Jul 1, 2023, the Page Views feature of Chirpy will also be deprecated at that time.
-
-
-This post is to enable Page Views on the Chirpy theme based blog that you just built. This requires technical knowledge and it’s recommended to keep t...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Customize the Favicon</title>
-    <link href="http://localhost:4000/posts/customize-the-favicon/" rel="alternate" type="text/html" title="Customize the Favicon" />
-    <published>2019-08-11T00:34:00+08:00</published>
-  
-    <updated>2019-08-11T00:34:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/customize-the-favicon/</id>
-    <content src="http://localhost:4000/posts/customize-the-favicon/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.
-
-Generate the favicon
-
-Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...
+...
     </summary>
   
 
