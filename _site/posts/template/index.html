@@ -729,7 +729,7 @@
 
 <!-- return element -->
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
-  title="193 words">
+  title="196 words">
   <em>1 min</em> read</span>
 
     </div>
@@ -840,15 +840,17 @@ git push
 7
 8
 9
+10
 </pre></td><td class="rouge-code"><pre><span class="c">REM --run--</span>
-@echo <span class="kd">HELLOWORLD</span>
+@echo <span class="na">off</span>
+<span class="kd">set</span> <span class="kd">GIT_DIR_X_T</span><span class="o">=</span><span class="s2">"D:\PycharmProjects\xiaoxin16.github.io"</span>
 @echo <span class="nv">%GIT_DIR_X_T%</span>
 <span class="nb">cd</span> <span class="nv">%GIT_DIR_X_T%</span>
 <span class="kd">git</span> <span class="kd">add</span> .
 <span class="kd">git</span> <span class="kd">commit</span> <span class="na">-m </span><span class="s2">"lalala"</span>
 <span class="c">::git push -u origin master</span>
 <span class="kd">git</span> <span class="kd">push</span>
-@echo 同步成功
+<span class="c">::@echo 同步成功</span>
 </pre></td></tr></tbody></table></code></div>    </div>
   </li>
   <li>
