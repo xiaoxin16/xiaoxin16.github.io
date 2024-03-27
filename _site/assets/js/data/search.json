@@ -14,7 +14,7 @@
 
     
     "snippet": "[toc]{type: “ul”, level: [1,2,3]}installpip install --upgrade pippip install kats# c++conda install libpython m2w64-toolchain -c msys2# conda install pystan -c conda-forgeconda install fbprophet -c...",
-    "content": "[toc]{type: “ul”, level: [1,2,3]}installpip install --upgrade pippip install kats# c++conda install libpython m2w64-toolchain -c msys2# conda install pystan -c conda-forgeconda install fbprophet -c conda-forgeconda install plotly -yconda install kats -c conda-forge#"
+    "content": "[toc]{type: “ul”, level: [1,2,3]}installpip install --upgrade pippip install kats# c++conda install libpython m2w64-toolchain -c msys2# conda install pystan -c conda-forgeconda install fbprophet -c conda-forgeconda install plotly -yconda install kats -c conda-forge# ARNING conda.gateways.disk.delete:unlink_or_rename_to_trash(143): Could not remove or rename D:\\Anaconda3\\pkgs\\m2w64-binutils-2.25.1-5\\Library\\mingw-w64\\bin\\dllwrap.exe.  Please remove this file manually (you may need to reboot to free file handles)"
   },
   
   {

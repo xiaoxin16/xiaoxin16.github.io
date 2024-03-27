@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>xiaoxin16博客</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-03-27T21:40:52+08:00</updated>
+  <updated>2024-03-27T21:49:08+08:00</updated>
   <author>
     <name>xiaoxin16</name>
     <uri>http://localhost:4000/</uri>
@@ -63,8 +63,8 @@ conda install kats -c conda-forge
 
 
 
-#
-
+# 
+ARNING conda.gateways.disk.delete:unlink_or_rename_to_trash(143): Could not remove or rename D:\Anaconda3\pkgs\m2w...
     </summary>
   
 
@@ -205,7 +205,7 @@ _全屏宽度且居中对齐_
     <link href="http://localhost:4000/posts/template/" rel="alternate" type="text/html" title="Template" />
     <published>2023-03-10T08:32:00+08:00</published>
   
-    <updated>2024-03-27T16:02:09+08:00</updated>
+    <updated>2024-03-27T21:41:03+08:00</updated>
   
     <id>http://localhost:4000/posts/template/</id>
     <content src="http://localhost:4000/posts/template/" />
