@@ -88,8 +88,8 @@ theme_mode: # [light | dark]
 # img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/favicons/images.jpg"
-# avatar: "/commons/avatar.jpg"
+# avatar: "/assets/img/favicons/favicon.png"
+avatar: "/assets/img/favicons/avatar.jpg"
 # baidu_tongji: cb92cd349db4fe1fa0245461400177b6
 # avatar: "/assets/img/favicons/apple-touch-icon.png"
 
@@ -140,7 +140,7 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 5
+paginate: 6
 
 # The base URL of your site
 baseurl: ""
