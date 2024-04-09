@@ -14,9 +14,9 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: xiaoxin16 # the main title
+title: 新家花园 # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: 脚踏实地 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -50,7 +50,7 @@ webmaster_verifications:
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
-  baidu: # fill in your Baidu verification code
+  baidu: cb92cd349db4fe1fa0245461400177b6 # fill in your Baidu verification code
   facebook: # fill in your Facebook verification code
 
 # ↑ --------------------------
@@ -89,7 +89,7 @@ img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "/commons/avatar.jpg"
-baidu_tongji: cb92cd349db4fe1fa0245461400177b6
+# baidu_tongji: cb92cd349db4fe1fa0245461400177b6
 # avatar: "/assets/img/favicons/apple-touch-icon.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
