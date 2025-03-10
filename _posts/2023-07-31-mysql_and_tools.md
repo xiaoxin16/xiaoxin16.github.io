@@ -1,5 +1,5 @@
 ---
-title: MYSQL
+title: MYSQL+ALIST+TOOLS
 author: xyh
 date: 2023-07-31 16:32:00 +0800
 categories: [学习, 技术]
