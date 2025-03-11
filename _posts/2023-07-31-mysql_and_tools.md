@@ -37,7 +37,7 @@ unzip alist-xxxx.zip
 .\alist.exe admin set 123456
 ```
 
-## 配置
+## 恢复TasksModule
 ## xx
 
 # 
