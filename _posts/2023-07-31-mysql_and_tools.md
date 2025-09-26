@@ -35,6 +35,7 @@ unzip alist-xxxx.zip
 .\alist.exe admin random
 # 手动设置一个密码 `NEW_PASSWORD`是指你需要设置的密码
 .\alist.exe admin set 123456
+# .\nssm.exe install alist and ...
 ```
 
 ## 恢复TasksModule
