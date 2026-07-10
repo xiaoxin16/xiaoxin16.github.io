@@ -12,7 +12,7 @@ tags: [MYSQL]
 ref[https://segmentfault.com/a/1190000043052363]
 ```
 1. 修改配置文件my.ini
-2. 添加系统环境变量
+2. 添加系统环境变量`mysql/bin`
 3. 管理员运行 mysqld --initialize-insecure --user=mysql
 4. 
 ```
